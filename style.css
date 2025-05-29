@@ -1,1 +1,66 @@
+body {
+  background-color: black;
+  color: #7851a9;
+}
 
+.description {
+  font-style: italic;
+}
+html {
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  color: #7851a9;
+  font-style: italic;
+  -webkit-text-stroke: 0.5px #00008B;
+  text-shadow: -0.5px -0.5px 0 #00008B,
+               0.5px -0.5px 0 #00008B,
+               -0.5px 0.5px 0 #00008B,
+               0.5px 0.5px 0 #00008B;
+}
+h2 {
+  font-weight: bold;
+}
+img {
+  height: auto;
+  width: 300px;
+  max-width: 100%;
+}
+img.icon {
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  vertical-align: middle;
+}
+img.icon[alt="X Icon"] {
+  width: 32px;
+  height: 32px;
+  background-color: white;
+  border-radius: 4px;
+  padding: 2px;
+}
+footer a {
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+}
+footer a:hover {
+  opacity: 0.8;
+}
+nav {
+  border: 2px solid #2e2d88;
+  display: block;
+  margin: auto;
+  padding: 20px;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+.one {
+  color: #2e2d88;
+}
+.underline {
+  text-decoration: underline;
+}

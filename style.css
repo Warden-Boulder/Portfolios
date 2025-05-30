@@ -14,11 +14,11 @@ html {
 h1 {
   color: #7851a9;
   font-style: italic;
-  -webkit-text-stroke: 0.5px #00008B;
-  text-shadow: -0.5px -0.5px 0 #00008B,
-               0.5px -0.5px 0 #00008B,
-               -0.5px 0.5px 0 #00008B,
-               0.5px 0.5px 0 #00008B;
+  -webkit-text-stroke: 0.5px gold;
+  text-shadow: -0.5px -0.5px 0 gold,
+               0.5px -0.5px 0 gold,
+               -0.5px 0.5px 0 gold,
+               0.5px 0.5px 0 gold;
 }
 h2 {
   font-weight: bold;

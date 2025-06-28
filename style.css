@@ -2,7 +2,10 @@ body {
   background-color: black;
   color: #7851a9;
 }
-
+.container{
+  border: 2px solid #2e2d88;
+  display: flex;
+}
 .description {
   font-style: italic;
 }
@@ -61,6 +64,24 @@ nav {
 .one {
   color: #2e2d88;
 }
+.sidebar {
+  height: 75px;
+  padding: 20px;
+  position: fixed;
+  width: 20px;
+}
+.sidebar button {
+  display: block;
+  margin: 10px 0;
+}
 .underline {
   text-decoration: underline;
+}
+
+.二 {
+  -webkit-text-stroke: 0.5px gold;
+  text-shadow: -0.5px -0.5px 0 gold,
+               0.5px -0.5px 0 gold,
+               -0.5px 0.5px 0 gold,
+               0.5px 0.5px 0 gold;
 }

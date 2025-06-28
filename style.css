@@ -2,20 +2,37 @@ body {
   background-color: black;
   color: #7851a9;
 }
-.container{
-  border: 2px solid #2e2d88;
-  display: flex;
-}
+
 .description {
   font-style: italic;
 }
+
+footer {
+  border-top: 1px solid gold;
+  color: gold;
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 14px;
+}
+
+header {
+  border-bottom: 1px solid gold;
+  font-family: Gerogia, serif;
+  font-style: italic;
+  font-weight: bold;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  text-decoration: none;
+}
+
 html {
   height: 100%;
   width: 100%;
 }
 
 h1 {
-  color: #7851a9;
+  color: crimson;
   font-style: italic;
   -webkit-text-stroke: 0.5px gold;
   text-shadow: -0.5px -0.5px 0 gold,
@@ -23,20 +40,24 @@ h1 {
                -0.5px 0.5px 0 gold,
                0.5px 0.5px 0 gold;
 }
+
 h2 {
   font-weight: bold;
 }
+
 img {
   height: auto;
   width: 300px;
   max-width: 100%;
 }
+
 img.icon {
   width: 32px;
   height: 32px;
   display: inline-block;
   vertical-align: middle;
 }
+
 img.icon[alt="X Icon"] {
   width: 32px;
   height: 32px;
@@ -44,14 +65,17 @@ img.icon[alt="X Icon"] {
   border-radius: 4px;
   padding: 2px;
 }
+
 footer a {
   text-decoration: none;
   display: inline-block;
   margin-top: 20px;
 }
+
 footer a:hover {
   opacity: 0.8;
 }
+
 nav {
   border: 2px solid #2e2d88;
   display: block;
@@ -61,19 +85,19 @@ nav {
   text-align: center;
   width: fit-content;
 }
+
 .one {
   color: #2e2d88;
 }
-.sidebar {
-  height: 75px;
-  padding: 20px;
-  position: fixed;
-  width: 20px;
+
+.section-title {
+  font-family: Gerogia, serif;
+  font-size: 1.25rem;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: none;
 }
-.sidebar button {
-  display: block;
-  margin: 10px 0;
-}
+
 .underline {
   text-decoration: underline;
 }
